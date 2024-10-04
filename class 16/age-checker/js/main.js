@@ -8,44 +8,39 @@ function ageCheck() {
 //If under 16, tell them they can not drive
 
 if (currentAge < 16){
-    console.log('You can not drive')
+    document.querySelector('p').innerText = "You can not drive"
 }
 
 //If under 18, tell them they can't hate from outside the club, because they can't even get in
 
 else if (currentAge < 18){
-    console.log("You can't hate from outside the club, because they can't even get in")
+    document.querySelector('p').innerText = "You can't hate from outside the club, because they can't even get in"
 }
 
 //If under 21, tell them they can not drink
 
 else if (currentAge < 21){
-    console.log("You can not drink")
+    document.querySelector('p').innerText = "You can not drink"
 }
 
 //If under 25, tell them they can not rent cars affordably
 
 else if (currentAge < 25){
-    console.log("You can not rent cars affordably")
+    document.querySelector('p').innerText = "You can not rent cars affordably"
 }
 
 //If under 30, tell them they can not rent fancy cars affordably
 
 else if (currentAge < 30){
-    console.log("You can not rent fancy cars affordably")
+    document.querySelector('p').innerText = "You can not rent fancy cars affordably"
 }
 
 //If under over 30, tell them there is nothing left to look forward too
 
 else if (currentAge >= 30){
-    console.log("You have nothing left to look forward to")
+    document.querySelector('p').innerText = "You have nothing left to look forward to"
 }
-
-
 }
-
-
-
 
 //--- Harder
 //On click of the h1
