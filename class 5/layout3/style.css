@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+}
+
+header,footer {
+    border: 2px solid rgb(210, 215, 211);
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+
+section {
+    border: 2px solid rgb(210, 215, 211);
+    float: left;
+    height: 300px;
+    width: 20%;
+}
+
+section.second {
+    width: 40%;
+}

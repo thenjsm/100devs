@@ -1,0 +1,128 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  border-left: 2px solid red;
+  padding-left: 5px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: black;
+  color: white;
+  height: 4em;
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.navSectionOne {
+  float: left;
+  width: 10%;
+}
+
+.navSectionTwo {
+  float: left;
+  width: 70%;
+}
+
+.navSectionThree {
+  float: left;
+  width: 20%;
+}
+
+footer {
+
+}
+
+#highlights,#news,.titles {
+  clear: both;
+}
+
+.big,.small {
+  float: left;
+  height: 300px;
+  width: 50%;
+}
+
+
+.subSection {
+  float: left;
+  height: 150px;
+  width: 50%;
+}
+
+.news {
+  float: left;
+  height: 350px;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.cover {
+  height: 300px;
+}
+
+ul li {
+  border-right: 1px solid lightgray;
+  display: inline;
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+.israel {
+  background: url(../images/Israel_UAE.png);
+  background-size: cover;
+}
+
+.usCanada {
+  background: url(../images/Tension_at_Canada_US_border.png);
+}
+
+.vaccinate {
+  background: url(../images/vaccinate_seven_billion_people.png);
+}
+
+.gyms {
+  background: url(../images/online_productivity_gyms.png);
+}
+
+.singer {
+  background: url(../images/singer.png);
+}
