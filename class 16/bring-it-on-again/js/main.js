@@ -15,7 +15,6 @@ console.log(pinkSoWhat / 10)
 function multiplyThree(num1,num2,num3) {
     alert(num1 * num2 * num3)
 }
-
 multiplyThree(2,3,1)
 
 // Create a function that takes in 4 numbers. Add the first two numbers and subtract the next two. Console log the result
@@ -25,7 +24,6 @@ function addAndSubtract(num1,num2,num3,num4) {
     subtractTwo = num3 - num4
     console.log(addTwo - subtractTwo)
 }
-
 addAndSubtract(3,3,2,1)
 
 // *Conditionals*
@@ -40,7 +38,6 @@ function checkWinna(num1,num2,num3) {
         console.log('WE HAVE A WINNNA')
     }
 }
-
 checkWinna(1,1,2)
 
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
@@ -55,7 +52,6 @@ function dayOfWeek(day) {
         alert('Try again!')
     }
 }
-
 dayOfWeek('Wednesday')
 
 //*Loops*
@@ -66,5 +62,4 @@ function countUp(num1) {
         console.log(i);
     }
 }
-
 countUp(15)
